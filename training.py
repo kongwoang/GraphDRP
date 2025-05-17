@@ -58,9 +58,9 @@ def main(modeling, train_batch, val_batch, test_batch, lr, num_epoch, log_interv
     val_losses = []
     val_pearsons = []
     print('\nrunning on ', model_st + '_' + dataset )
-    processed_data_file_train = '/kaggle/working/data/processed' + dataset + '_train_mix'+'.pt'
-    processed_data_file_val = '/kaggle/working/data/processed' + dataset + '_val_mix'+'.pt'
-    processed_data_file_test = '/kaggle/working/data/processed' + dataset + '_test_mix'+'.pt'
+    processed_data_file_train = '/kaggle/working/data/processed/' + dataset + '_train_mix'+'.pt'
+    processed_data_file_val = '/kaggle/working/data/processed/' + dataset + '_val_mix'+'.pt'
+    processed_data_file_test = '/kaggle/working/data/processed/' + dataset + '_test_mix'+'.pt'
     if ((not os.path.isfile(processed_data_file_train)) or (not os.path.isfile(processed_data_file_val)) or (not os.path.isfile(processed_data_file_test))):
         print('please run create_data.py to prepare data in pytorch format!')
     else:
