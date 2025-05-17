@@ -1,4 +1,4 @@
-    import numpy as np
+import numpy as np
 import pandas as pd
 import sys, os
 from random import shuffle
