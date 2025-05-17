@@ -35,7 +35,7 @@ def is_not_float(string_list):
 The following 4 function is used to preprocess the drug data. We download the drug list manually, and download the SMILES format using pubchempy. Since this part is time consuming, I write the cids and SMILES into a csv file. 
 """
 
-folder = "data/"
+folder = "/kaggle/working/data"
 #folder = ""
 
 def load_drug_list():
