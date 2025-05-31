@@ -231,6 +231,7 @@ def save_cell_mut_matrix():
 This part is used to extract the drug - cell interaction strength. it contains IC50, AUC, Max conc, RMSE, Z_score
 """
 def save_mix_drug_cell_matrix():
+    print("Script started")
     f = open(folder + "PANCANCER_IC.csv")
     reader = csv.reader(f)
     next(reader)
@@ -296,6 +297,7 @@ def save_mix_drug_cell_matrix():
     train_data = TestbedDataset(root='data', dataset=dataset+'_train_mix', xd=xd_train, xt=xc_train, y=y_train, smile_graph=smile_graph)
     val_data = TestbedDataset(root='data', dataset=dataset+'_val_mix', xd=xd_val, xt=xc_val, y=y_val, smile_graph=smile_graph)
     test_data = TestbedDataset(root='data', dataset=dataset+'_test_mix', xd=xd_test, xt=xc_test, y=y_test, smile_graph=smile_graph)
+
 
 
 def save_blind_drug_matrix():
