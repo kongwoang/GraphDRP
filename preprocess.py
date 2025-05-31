@@ -537,21 +537,22 @@ def save_best_individual_drug_cell_matrix():
     train_data = TestbedDataset(root='data', dataset=dataset+'_bortezomib', xd=xd_train, xt=xc_train, y=y_train, smile_graph=smile_graph, saliency_map=True)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='prepare dataset to train model')
-    parser.add_argument('--choice', type=int, required=False, default=0, help='0.mix test, 1.saliency value, 2.drug blind, 3.cell blind')
-    args = parser.parse_args()
-    choice = args.choice
-    if choice == 0:
-        # save mix test dataset
-        save_mix_drug_cell_matrix()
-    elif choice == 1:
-        # save saliency map dataset
-        save_best_individual_drug_cell_matrix()
-    elif choice == 2:
-        # save blind drug dataset
-        save_blind_drug_matrix()
-    elif choice == 3:
-        # save blind cell dataset
-        save_blind_cell_matrix()
-    else:
-        print("Invalide option, choose 0 -> 4")
+    # parser = argparse.ArgumentParser(description='prepare dataset to train model')
+    # parser.add_argument('--choice', type=int, required=False, default=0, help='0.mix test, 1.saliency value, 2.drug blind, 3.cell blind')
+    # args = parser.parse_args()
+    # choice = args.choice
+    # if choice == 0:
+    #     # save mix test dataset
+    #     save_mix_drug_cell_matrix()
+    # elif choice == 1:
+    #     # save saliency map dataset
+    #     save_best_individual_drug_cell_matrix()
+    # elif choice == 2:
+    #     # save blind drug dataset
+    #     save_blind_drug_matrix()
+    # elif choice == 3:
+    #     # save blind cell dataset
+    #     save_blind_cell_matrix()
+    # else:
+    #     print("Invalide option, choose 0 -> 4")
+    save_mix_drug_cell_matrix()
