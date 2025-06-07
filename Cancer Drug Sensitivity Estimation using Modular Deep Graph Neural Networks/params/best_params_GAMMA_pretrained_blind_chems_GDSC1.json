@@ -1,0 +1,19 @@
+{
+  "beta_1": 0.834268568344943,
+  "beta_2": 0.7385916847465018,
+  "encoded_gene_dim": 512,
+  "hidden_factor_attn": 1,
+  "hidden_factor_drug": 0.5587469027374038,
+  "hidden_factor_interaction": 7.327861705987575,
+  "hidden_factor_line": 2.568838338587271,
+  "learning_rate": 2.675628298283962e-05,
+  "lr_decay": 0.9199173961147393,
+  "p_dropout_attn": 0.024942923441589233,
+  "p_dropout_fc": 0.36502419225979227,
+  "p_dropout_gat": 0.22150250886949557,
+  "pooling": "transformer",
+  "pretraining_length": 4,
+  "train_batch": 512,
+  "use_split": "blind_chems",
+  "weight_decay": 2.0227241920445407e-10
+}

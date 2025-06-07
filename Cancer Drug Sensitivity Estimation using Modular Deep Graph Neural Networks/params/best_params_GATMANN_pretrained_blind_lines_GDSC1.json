@@ -1,0 +1,18 @@
+{
+  "beta_1": 0.7421965359678988,
+  "beta_2": 0.9706232710650776,
+  "fc_hidden": 512,
+  "gene_hidden": 4096,
+  "learning_rate": 2.255485199026371e-05,
+  "n_conv_layers": 6,
+  "n_heads": 16,
+  "output_dim": 1024,
+  "p_dropout_attn": 0.4395211282456908,
+  "p_dropout_fc": 0.3963253930244122,
+  "p_dropout_gat": 0.09499636471775885,
+  "p_dropout_gene": 0.0068987291753653665,
+  "pooling": "transformer",
+  "train_batch": 256,
+  "use_split": "blind_lines",
+  "weight_decay": 1.4868271080888546e-08
+}

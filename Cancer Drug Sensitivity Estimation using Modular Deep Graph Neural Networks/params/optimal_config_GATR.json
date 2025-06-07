@@ -1,0 +1,14 @@
+{
+  "beta_1": 0.8976952433910124,
+  "beta_2": 0.8191673103327075,
+  "fc_hidden": 512,
+  "learning_rate": 0.0002589958726277616,
+  "max_iter": 30,
+  "output_dim": 256,
+  "p_dropout_attn": 0.35776204811040524,
+  "p_dropout_fc": 0.3068691483654206,
+  "p_dropout_gat": 0.43196719905559694,
+  "pretraining_length": 8,
+  "train_batch": 512,
+  "weight_decay": 8.441680351380703e-10
+}

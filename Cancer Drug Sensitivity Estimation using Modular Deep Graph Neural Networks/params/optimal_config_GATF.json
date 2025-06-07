@@ -1,0 +1,15 @@
+{
+  "beta_1": 0.5,
+  "beta_2": 0.999,
+  "embed_dim": 128,
+  "fc_hidden": 512,
+  "learning_rate": 0.00030658181251217294,
+  "n_conv_layers": 3,
+  "n_heads": 8,
+  "output_dim": 1024,
+  "p_dropout_attn": 0.048127794006007724,
+  "p_dropout_fc": 0.43057821695521387,
+  "p_dropout_gat": 0.12177408088749789,
+  "train_batch": 256,
+  "weight_decay": 1e-10
+}
